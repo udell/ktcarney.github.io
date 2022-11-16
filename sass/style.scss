@@ -1,7 +1,7 @@
 $font-primary: 'Quicksand', Arial, sans-serif;
 
 // Overrides
-$grid-gutter-width: 40px !default; 
+$grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
@@ -53,16 +53,16 @@ $form-group-margin-bottom:       30px !default;
           border-radius: $radius;
 }
 @mixin flex() {
-	display: -webkit-box;      
-  	display: -moz-box;         
-  	display: -ms-flexbox;      
-  	display: -webkit-flex;     
-  	display: flex;             
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
 }
 @mixin flexwrap() {
 	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap; 
-	-moz-flex-wrap: wrap; 
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
 }
 
 @font-face {
@@ -77,7 +77,7 @@ $form-group-margin-bottom:       30px !default;
 }
 
 @mixin icomoon() {
-	
+
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -89,10 +89,10 @@ $form-group-margin-bottom:       30px !default;
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	
+
 }
 
-// Import 
+// Import
 @import 'bootstrap/mixins';
 @import 'bootstrap/variables';
 
@@ -101,7 +101,7 @@ $form-group-margin-bottom:       30px !default;
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -115,7 +115,7 @@ body {
 	color: rgba(0,0,0,.7);
 	@media screen and (max-width: $screen-md) {
 		font-size: 16px;
-	}	
+	}
 }
 a {
 	color: $brand-primary;
@@ -167,12 +167,12 @@ figure {
   background: $brand-primary;
 }
 
-#colorlib-page {
+#page {
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-#colorlib-aside {
+#aside {
 	padding-top: 3em;
 	padding-bottom: 40px;
 	padding-left: 3em;
@@ -182,7 +182,7 @@ figure {
 	position: fixed;
 	bottom: 0;
 	top: 0;
-	left: 0;	
+	left: 0;
 	overflow-y: scroll;
 	z-index: 1001;
 	background: $brand-white;
@@ -195,7 +195,7 @@ figure {
 		@include translateX(-270px);
 		padding-top: 4em;
 	}
-	#colorlib-logo {
+	#logo {
 		text-align: right;
 		font-weight: 400;
 		font-size: 22px;
@@ -221,7 +221,7 @@ figure {
 			}
 		}
 	}
-	#colorlib-main-menu {
+	#main-menu {
 		ul {
 			text-align: right;
 			margin: 0;
@@ -267,7 +267,7 @@ figure {
 					&:hover {
 						text-decoration: none;
 						color: rgba(0,0,0,1);
-						
+
 						&:after {
 							visibility: visible;
 							-webkit-transform: scaleX(1);
@@ -278,7 +278,7 @@ figure {
 						}
 					}
 				}
-				&.colorlib-active {
+				&.active {
 					a {
 						color: $brand-black;
 						&:after {
@@ -294,7 +294,7 @@ figure {
 			}
 		}
 	}
-	.colorlib-footer {
+	.footer {
 		position: absolute;
 		bottom: 40px;
 		right: 1.5em;
@@ -334,7 +334,7 @@ figure {
 	}
 }
 
-#colorlib-main {
+#main {
 	width: 80%;
 	float: right;
 	@include transition(.5s);
@@ -347,7 +347,7 @@ figure {
 }
 
 
-#colorlib-hero {
+#hero {
 	min-height: 500px;
 	background: $brand-white url(../images/loader.gif) no-repeat center center;
 	width: 100%;
@@ -456,7 +456,7 @@ figure {
 						font-size: 30px;
 					}
 				}s
-				.colorlib-lead{
+				.lead{
 					font-size: 20px;
 					color: $brand-white;
 				}
@@ -493,25 +493,25 @@ figure {
 body {
 	&.offcanvas {
 		overflow-x: hidden;
-		#colorlib-aside {
+		#aside {
 			@include translateX(0);
 			width: 270px;
 			background: $brand-white;
 			z-index: 999;
 			position: fixed;
 		}
-		#colorlib-main, .colorlib-nav-toggle {
+		#main, .nav-toggle {
 			top: 0;
 			@include translateX(270px);
 		}
 	}
 }
 
-.colorlib-blog,
-.colorlib-work,
-.colorlib-about,
-.colorlib-services,
-.colorlib-contact{
+.blog,
+.work,
+.about,
+.services,
+.contact{
 	padding-top: 4em;
 	padding-bottom: 9em;
 	clear: both;
@@ -532,7 +532,7 @@ body {
 	position: relative;
 }
 
-.colorlib-heading {
+.heading {
 	font-size: 18px;
 	margin-bottom: 4em;
 	font-weight: 500;
@@ -852,7 +852,7 @@ content: "\ea1c";
 }
 
 
-.colorlib-lead {
+.lead {
 	font-size: 18px;
 	line-height: 1.5;
 }
@@ -866,7 +866,7 @@ content: "\ea1c";
 }
 
 
-.colorlib-social {
+.social {
 	padding: 0;
 	margin: 0;
 	text-align: center;
@@ -899,24 +899,24 @@ content: "\ea1c";
 
 #map {
 	width: 100%;
-	height: 700px;	
+	height: 700px;
 	@media screen and (max-width: $screen-sm) {
 		height: 200px;
 	}
 }
 
-.colorlib-more-contact {
-	background: lighten($brand-black, 98%);	
+.more-contact {
+	background: lighten($brand-black, 98%);
 	border: 1px solid red;
 }
 
-.colorlib-feature {
+.feature {
 	text-align: left;
 	width: 100%;
 	float: left;
 	margin-bottom: 40px;
 	position: relative;
-	.colorlib-icon {
+	.icon {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -937,7 +937,7 @@ content: "\ea1c";
 			}
 		}
 	}
-	.colorlib-text {
+	.text {
 		padding-left: 120px;
 		width: 100%;
 		h2, h3 {
@@ -953,11 +953,11 @@ content: "\ea1c";
 			text-transform: uppercase;
 		}
 	}
-	&.colorlib-feature-sm {
-		.colorlib-text {
+	&.feature-sm {
+		.text {
 			margin-top: 30px;
 		}
-		.colorlib-icon {
+		.icon {
 			i {
 				color: $brand-primary;
 				font-size: 40px;
@@ -970,8 +970,8 @@ content: "\ea1c";
 }
 
 
-.colorlib-feature-lg{
-	.colorlib-text {
+.feature-lg{
+	.text {
 		h2, h3 {
 			margin: 0;
 			padding: 0;
@@ -988,7 +988,7 @@ content: "\ea1c";
 }
 
 
-.colorlib-bg-color{
+.bg-color{
 	background: lighten($brand-black,98%);
 	position: relative;
 }
@@ -1180,7 +1180,7 @@ content: "\ea1c";
 }
 
 // Burger Menu
-.colorlib-nav-toggle {
+.nav-toggle {
   cursor: pointer;
   text-decoration: none;
   &.active i {
@@ -1234,22 +1234,22 @@ content: "\ea1c";
   }
 }
 
-.colorlib-nav-toggle i::before {
+.nav-toggle i::before {
   top: -7px;
 }
-.colorlib-nav-toggle i::after {
+.nav-toggle i::after {
   bottom: -7px;
 }
-.colorlib-nav-toggle:hover i::before {
+.nav-toggle:hover i::before {
   top: -10px;
 }
-.colorlib-nav-toggle:hover i::after {
+.nav-toggle:hover i::after {
   bottom: -10px;
 }
-.colorlib-nav-toggle.active i {
+.nav-toggle.active i {
 	background: transparent;
 }
-.colorlib-nav-toggle.active i::before {
+.nav-toggle.active i::before {
   top:0;
   -webkit-transform: rotateZ(45deg);
      -moz-transform: rotateZ(45deg);
@@ -1257,7 +1257,7 @@ content: "\ea1c";
        -o-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
-.colorlib-nav-toggle.active i::after {
+.nav-toggle.active i::after {
   bottom:0;
   -webkit-transform: rotateZ(-45deg);
      -moz-transform: rotateZ(-45deg);
@@ -1265,7 +1265,7 @@ content: "\ea1c";
        -o-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
-.colorlib-nav-toggle {
+.nav-toggle {
   	position: fixed;
   	left: -4px;
 	top: 0px;
@@ -1280,7 +1280,7 @@ content: "\ea1c";
   		opacity: 1;
 		visibility: visible;
   	}
-  
+
 }
 
 
@@ -1301,13 +1301,13 @@ content: "\ea1c";
 	padding-bottom: 4em;
 	@media screen and (max-width: $screen-sm ) {
 		padding-bottom: 1em;
-	}	
+	}
 }
 .row-bottom-padded-sm {
 	padding-bottom: 1em;
 	@media screen and (max-width: $screen-sm ) {
 		padding-bottom: 1em;
-	}	
+	}
 }
 .col-padding{
 	padding: 10px !important;
