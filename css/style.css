@@ -73,10 +73,7 @@ figure {
   position: relative; }
 
 #aside {
-  padding-top: 3em;
-  padding-bottom: 40px;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding: 3em;
   width: 20%;
   position: fixed;
   bottom: 0;
@@ -88,9 +85,10 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  /*@media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1200px) {
     #aside {
-      width: 30%; } }*/
+      padding-left: 2em;
+      padding-right: 2em; } }
   @media screen and (max-width: 768px) {
     #aside {
       width: 270px;
@@ -99,7 +97,8 @@ figure {
       -ms-transform: translateX(-270px);
       -o-transform: translateX(-270px);
       transform: translateX(-270px);
-      padding-top: 4em; } }
+      padding-left: 3em;
+      padding-right: 3em; } }
   #aside #logo {
     text-align: right;
     font-weight: 400;
@@ -110,7 +109,7 @@ figure {
     width: 100%; }
     @media screen and (max-width: 768px) {
       #aside #logo {
-        margin-bottom: 1em; } }
+        margin-bottom: 2em; } }
     #aside #logo a {
       display: inline-block;
       text-align: center;
@@ -187,7 +186,7 @@ figure {
           transform: scaleX(1); }
   #aside .footer {
     position: absolute;
-    bottom: 40px;
+    bottom: 3em;
     right: 1.5em;
     left: 1.5em;
     font-size: 15px;
@@ -195,10 +194,10 @@ figure {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6);
     padding: 0 20px; }
-    @media screen and (max-width: 768px) {
+    /*@media screen and (max-width: 768px) {
       #aside .footer {
         position: relative;
-        bottom: 0; } }
+        bottom: 0; } }*/
     #aside .footer span {
       display: block; }
     #aside .footer ul {
@@ -223,9 +222,6 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  /*@media screen and (max-width: 1200px) {
-    #main {
-      width: 70%; } }*/
   @media screen and (max-width: 768px) {
     #main {
       width: 100%; } }
@@ -235,7 +231,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  /*margin-bottom: 10em;*/
   clear: both; }
   #hero .btn {
     font-size: 24px; }
@@ -251,7 +247,7 @@ figure {
       #hero .flexslider .slides li {
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: bottom center;
+        background-position: top center;
         min-height: 400px;
         position: relative; }
     #hero .flexslider .flex-control-nav {
