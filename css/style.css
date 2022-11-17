@@ -231,7 +231,6 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  /*margin-bottom: 10em;*/
   clear: both; }
   #hero .btn {
     font-size: 24px; }
@@ -312,8 +311,8 @@ figure {
           font-weight: 300;
           font-family: "Quicksand", Arial, sans-serif; }
           #hero .flexslider .slider-text > .slider-text-inner h2 a {
-            color: rgba(247, 89, 64, 0.8);
-            border-bottom: 1px solid rgba(247, 89, 64, 0.7); }
+            color: rgba(4, 210, 173,0.8);
+            border-bottom: 1px solid rgba(4, 210, 173,0.7); }
         #hero .flexslider .slider-text > .slider-text-inner .heading-section {
           font-size: 50px; }
           @media screen and (max-width: 768px) {
