@@ -236,7 +236,7 @@ figure {
 				text-transform: uppercase;
 				letter-spacing: 1px;
 				a {
-					color: rgba(0,0,0,.4);
+					color: #04d2ad;
 					text-decoration: none;
 					position: relative;
 					padding: 10px 0;
@@ -249,7 +249,7 @@ figure {
 						bottom: 7px;
 						left: 0;
 						right: 0;
-						background-color: $brand-black;
+						background-color: #04d2ad;
 						visibility: hidden;
 						-webkit-transform: scaleX(0);
 						-moz-transform: scaleX(0);
@@ -264,7 +264,7 @@ figure {
 					}
 					&:hover {
 						text-decoration: none;
-						color: rgba(0,0,0,1);
+						color: #04d2ad;
 
 						&:after {
 							visibility: visible;
@@ -278,7 +278,7 @@ figure {
 				}
 				&.active {
 					a {
-						color: $brand-black;
+						color: #D81159;
 						&:after {
 							visibility: visible;
 							-webkit-transform: scaleX(1);
@@ -367,7 +367,7 @@ figure {
 				background-repeat: no-repeat;
 				background-size: cover;
 				background-position: top center;
-				min-height: 400px;
+				min-height: 100vh;
 				position: relative;
 			}
 		}
