@@ -187,8 +187,8 @@ figure {
 	z-index: 1001;
 	background: $brand-white;
 	@include transition(.5s);
-	@media screen and (max-width: $screen-lg) {
-		width: 30%;
+	/*@media screen and (max-width: $screen-lg) {
+		width: 30%;*/
 	}
 	@media screen and (max-width: $screen-sm) {
 		width: 270px;
@@ -338,8 +338,8 @@ figure {
 	width: 80%;
 	float: right;
 	@include transition(.5s);
-	@media screen and (max-width: $screen-lg) {
-		width: 70%;
+	/*@media screen and (max-width: $screen-lg) {
+		width: 70%;*/
 	}
 	@media screen and (max-width: $screen-sm) {
 		width: 100%;
