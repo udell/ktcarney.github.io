@@ -236,7 +236,7 @@ figure {
 				text-transform: uppercase;
 				letter-spacing: 1px;
 				a {
-					color: #04d2ad;
+					color: #D81159;
 					text-decoration: none;
 					position: relative;
 					padding: 10px 0;
@@ -278,7 +278,7 @@ figure {
 				}
 				&.active {
 					a {
-						color: #D81159;
+						color: #04d2ad;
 						&:after {
 							visibility: visible;
 							-webkit-transform: scaleX(1);

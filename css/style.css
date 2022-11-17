@@ -176,7 +176,7 @@ figure {
             -o-transform: scaleX(1);
             transform: scaleX(1); }
       #aside #main-menu ul li.active a {
-        color: #D81159; }
+        color: #04d2ad; }
         #aside #main-menu ul li.active a:after {
           visibility: visible;
           -webkit-transform: scaleX(1);
