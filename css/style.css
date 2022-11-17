@@ -22,12 +22,12 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #F75940;
+  color: #04d2ad;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #F75940;
+    color: #04d2ad;
     outline: none;
     text-decoration: none !important; }
 
@@ -57,15 +57,15 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #F75940; }
+  background: #04d2ad; }
 
 ::-moz-selection {
   color: #fff;
-  background: #F75940; }
+  background: #04d2ad; }
 
 ::selection {
   color: #fff;
-  background: #F75940; }
+  background: #04d2ad; }
 
 #page {
   width: 100%;
@@ -214,7 +214,7 @@ figure {
           #aside .footer ul li a:hover, #aside .footer ul li a:active, #aside .footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: #F75940; }
+            color: #04d2ad; }
 
 #main {
   width: 80%;
@@ -269,7 +269,7 @@ figure {
           #hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
             background: transparent;
-            border: 2px solid #F75940; }
+            border: 2px solid #04d2ad; }
     #hero .flexslider .flex-direction-nav {
       display: none; }
     #hero .flexslider .slider-text {
@@ -710,11 +710,11 @@ body.offcanvas {
         .social li a {
           padding: 10px 8px; } }
       .social li a:hover {
-        color: #F75940; }
+        color: #04d2ad; }
       .social li a:hover, .social li a:active, .social li a:focus {
         outline: none;
         text-decoration: none;
-        color: #F75940; }
+        color: #04d2ad; }
 
 #map {
   width: 100%;
@@ -749,7 +749,7 @@ body.offcanvas {
     .feature .icon i {
       display: table-cell;
       vertical-align: middle;
-      color: #F75940;
+      color: #04d2ad;
       font-size: 40px;
       height: 100px; }
       @media screen and (max-width: 1200px) {
@@ -771,7 +771,7 @@ body.offcanvas {
   .feature.feature-sm .text {
     margin-top: 30px; }
   .feature.feature-sm .icon i {
-    color: #F75940;
+    color: #04d2ad;
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
       .feature.feature-sm .icon i {
@@ -812,19 +812,19 @@ body.offcanvas {
         -ms-border-radius: 2px;
         border-radius: 2px; }
       .pagination li a:hover, .pagination li a:focus {
-        background: #F75940;
+        background: #04d2ad;
         color: #fff;
-        border: 1px solid #F75940; }
+        border: 1px solid #04d2ad; }
       @media screen and (max-width: 768px) {
         .pagination li a {
           padding: 7px 15px; } }
     .pagination li.active a {
-      background: #F75940;
-      border: 1px solid #F75940 !important; }
+      background: #04d2ad;
+      border: 1px solid #04d2ad !important; }
       .pagination li.active a:hover, .pagination li.active a:focus {
-        background: #F75940;
+        background: #04d2ad;
         color: #fff;
-        border: 1px solid #F75940 !important; }
+        border: 1px solid #04d2ad !important; }
 
 .btn {
   margin-right: 4px;
@@ -854,18 +854,18 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #F75940;
+  background: #04d2ad;
   color: #fff;
-  border: 2px solid #F75940; }
+  border: 2px solid #04d2ad; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #f86e58 !important;
     border-color: #f86e58 !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #F75940;
-    border: 2px solid #F75940; }
+    color: #04d2ad;
+    border: 2px solid #04d2ad; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #F75940;
+      background: #04d2ad;
       color: #fff; }
 
 .btn-success {
@@ -958,7 +958,7 @@ body.offcanvas {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #F75940; }
+    border-color: #04d2ad; }
 
 #message {
   height: 130px; }
