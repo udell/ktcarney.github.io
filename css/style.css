@@ -562,8 +562,7 @@ body.offcanvas {
         position: absolute;
         height: auto;
         width: auto;
-        color: #000; 
-        background-color: #BBD686; }
+        color: #000; }
       .project .desc .con .icon {
         position: absolute;
         bottom: 20px;
@@ -584,7 +583,7 @@ body.offcanvas {
           font-size: 16px;
           color: #cccccc; }
     .project .desc h3 {
-      font-size: 28px;
+      font-size: 24px;
       font-weight: 500;
       text-transform: none;
       letter-spacing: 1px;
@@ -598,7 +597,8 @@ body.offcanvas {
       transform: translate3d(0, -15px, 0);
       margin-bottom: 15px; }
       .project .desc h3 a {
-        color: #fff; }
+        color: #fff;
+        background-color: #BBD686; }
     .project .desc span {
       display: block;
       color: #999999;
